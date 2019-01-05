@@ -18,6 +18,12 @@ class Checkers implements Game{
 		System.out.println("Checkers move " + moves);
 		return ++moves != MOVES;
 	}
+	
+/*	//使用匿名内部类工厂
+	public static GameFactory factory = new GameFactory(){
+		public Game getGame(){ return new Checkers(); }
+	};*/
+	
 }
 
 class CheckersFactory implements GameFactory{
