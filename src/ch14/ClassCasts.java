@@ -8,6 +8,7 @@
  */
 package ch14;
 
+
 class Building{}
 class House extends Building{}
 
@@ -18,7 +19,7 @@ class House extends Building{}
  * @date 2019Äê2ÔÂ24ÈÕ
  * 
  */
-public class ClassCasts {
+public class ClassCasts{
 	public static void main(String[] args) {
 		Building b = new House();
 		Class<House> houseType = House.class;
