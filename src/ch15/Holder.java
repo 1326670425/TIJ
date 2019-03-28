@@ -32,6 +32,7 @@ public class Holder<T> {
 		Holder<? extends Fruit> fruit = Apple;
 		Fruit p = fruit.get();
 		d = (Apple)fruit.get();//·µ»ØObject
+		System.out.println();
 		try{
 			Orange c = (Orange)fruit.get();
 		}catch(Exception e){
