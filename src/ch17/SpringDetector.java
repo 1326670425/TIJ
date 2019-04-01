@@ -26,6 +26,8 @@ public class SpringDetector {
 		print("map = " + map);
 		Groundhog gh = ghog.newInstance(3);
 		print("Looking up prediction for " + gh);
+		// 查找Groundhog3失败，Groundhog自动继承自基类Object，使用Object的hashCode()方法产生散列码
+		// 而它默认是使用对象的地址计算散列码，因此，与之前的Groundhog3对象散列码不同，所以查找失败
 		if(map.containsKey(gh))
 			print(map.get(gh));
 		else
