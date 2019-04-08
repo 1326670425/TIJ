@@ -13,6 +13,7 @@ import net.mindview.util.*;
 /**
  * @ClassName AtUnitExample5
  * @Description static @TestObjectCleanup方法：执行一些清理工作
+ * <p>清理方法会在每个测试结束后自动运行
  * @author 吴扬颉
  * @date 2019年4月8日
  * 
