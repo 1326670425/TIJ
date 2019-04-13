@@ -10,7 +10,7 @@ package ch19.menu;
 import net.mindview.util.*;
 /**
  * @ClassName Course
- * @Description 枚举的枚举
+ * @Description 枚举的枚举。分类菜单
  * @author 吴扬颉
  * @date 2019年4月7日
  * 
